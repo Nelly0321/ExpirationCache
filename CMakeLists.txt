@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+set(CMAKE_CXX_STANDARD 20)
+project(Cache)
+add_executable(a main.cpp)
+target_include_directories(a PUBLIC /Users/NellyVardanyan/Documents/ACA/myCache/)
