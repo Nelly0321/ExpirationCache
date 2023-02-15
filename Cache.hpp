@@ -48,7 +48,7 @@ private:
  void arrange(){
    unique_lock l(_lock);
    if(_data1.size() >= 100){
-      cerr << "Here!" << endl;
+      //cerr << "Here!" << endl;
       _data2.clear();
       _data2 = _data1;
       _data1.clear();
